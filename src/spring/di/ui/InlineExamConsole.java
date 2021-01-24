@@ -7,7 +7,6 @@ public class InlineExamConsole implements Examconsole {
 	private Exam exam;
 	
 	public InlineExamConsole(Exam exam) {
-		super();
 		this.exam = exam;
 	}
 
