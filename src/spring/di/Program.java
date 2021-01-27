@@ -13,7 +13,7 @@ public class Program {
 		
 		Exam exam = new NewlecExam();
 		Examconsole console= new GridExamConsole(exam);
-		//Examconsole console = new InlineExamConsole(exam);
+		//Examconsole console = new InlineExamConsole(exam); //DI
 		
 		console.print();
 	}
